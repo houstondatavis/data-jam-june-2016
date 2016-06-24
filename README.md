@@ -15,7 +15,7 @@ Full dataset with additional [columns](https://docs.google.com/spreadsheets/d/1l
 
 # Definitions for columns (in Scorecard only data)
 
-[See here](./blob/master/definitions.md)
+[See here](./definitions.md)
 
 # Data Categories
 
