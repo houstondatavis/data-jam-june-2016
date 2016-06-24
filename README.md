@@ -1,10 +1,10 @@
-# The data
+# College Scorecard Data
 
 This jam's data features location, degrees/program types, academic, admissions, student, cost, aid, repayment, completions, and post-college earnings data on US Colleges.  The "entire dataset spanning nearly 20 years of data and covering multiple sources including IPEDS, NSLDS, and Department of Treasury" and was pulled together by the US Department of education and the incredible [18f](https://18f.gsa.gov/).  This [subset](https://collegescorecard.ed.gov/downloads/Most-Recent-Cohorts-Scorecard-Elements.csv) of the data powers this [College Scorecard](https://collegescorecard.ed.gov/).
 
 # Ways to get data
 
-1. Ask for a USB at jam
+1. Ask for a USB at [jam](http://www.meetup.com/Houston-Data-Visualization-Meetup/events/231227184/)
 1. Download from [here](https://collegescorecard.ed.gov/downloads/Most-Recent-Cohorts-Scorecard-Elements.csv)
 1. Query the [API](https://github.com/18F/open-data-maker/blob/api-docs/API.md)
 
