@@ -1,17 +1,20 @@
-# About
+# The data
 
-TODO add some description.
-
-
-Full dataset with additional [columns](https://docs.google.com/spreadsheets/d/1lvDKrp6Azkr8D-MTOOUsEX61wPxcG2LSZlep_gdK4U8/pubhtml?gid=1332420733&single=true) for years 1996 to 2013 can be downloaded [here](https://collegescorecard.ed.gov/downloads/CollegeScorecard_Raw_Data.zip).  Warning: This zip of csvs is ~ 150 MB.  Unzipped, each file is ~ 100 MB.
-
+This jam's data features location, degrees/program types, academic, admissions, student, cost, aid, repayment, completions, and post-college earnings data on US Colleges.  The "entire dataset spanning nearly 20 years of data and covering multiple sources including IPEDS, NSLDS, and Department of Treasury" and was pulled together by the US Department of education and the incredible [18f](https://18f.gsa.gov/).  This [subset](https://collegescorecard.ed.gov/downloads/Most-Recent-Cohorts-Scorecard-Elements.csv) of the data powers this [College Scorecard](https://collegescorecard.ed.gov/).
 
 # Ways to get data
 
 1. Ask for a USB at jam
 1. Download from [here](https://collegescorecard.ed.gov/downloads/Most-Recent-Cohorts-Scorecard-Elements.csv)
-1. Query the [API]()
+1. Query the [API](https://github.com/18F/open-data-maker/blob/api-docs/API.md)
 
+# About
+
+You can read all about the dataset and findings from it [here](https://collegescorecard.ed.gov/data/documentation/).
+
+A subset of the full data was used to make the [College Scorecard](https://collegescorecard.ed.gov/) for people to compare colleges.  You can download the **[data behind the scorecard here](https://collegescorecard.ed.gov/downloads/Most-Recent-Cohorts-Scorecard-Elements.csv)**.
+
+Full dataset with additional [columns](https://docs.google.com/spreadsheets/d/1lvDKrp6Azkr8D-MTOOUsEX61wPxcG2LSZlep_gdK4U8/pubhtml?gid=1332420733&single=true) for years 1996 to 2013 can be downloaded [here](https://collegescorecard.ed.gov/downloads/CollegeScorecard_Raw_Data.zip).  Warning: This zip of csvs is ~ 150 MB.  Unzipped, each file is ~ 100 MB.
 
 # Definitions for columns (in Scorecard only data)
 
@@ -23,14 +26,14 @@ Taken from [https://collegescorecard.ed.gov/data/documentation/](https://college
 
 ## Root
 
-These select items refer to the most basic information in the data set, including different IDs for each school.
+These select items refer to the most basic information in the dataset, including different IDs for each school.
 
 * Unit ID and OPE ID for the institution
 * Location (lat/long)
 
 ## School
 
-A number of the elements produced in this data set provide basic descriptive information about the school in question. Most of these elements are already available through the Integrated Postsecondary Education Data System (IPEDS).
+A number of the elements produced in this dataset provide basic descriptive information about the school in question. Most of these elements are already available through the Integrated Postsecondary Education Data System (IPEDS).
 
 * Name
 * Currently Operating status
