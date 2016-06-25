@@ -1,11 +1,18 @@
 # College Scorecard Data
 
-This jam's data features location, degrees/program types, academic, admissions, student, cost, aid, repayment, completions, and post-college earnings data on US Colleges.  The "entire dataset spanning nearly 20 years of data and covering multiple sources including IPEDS, NSLDS, and Department of Treasury" and was pulled together by the US Department of education and the incredible [18f](https://18f.gsa.gov/).  This [subset](https://collegescorecard.ed.gov/downloads/Most-Recent-Cohorts-Scorecard-Elements.csv) of the data powers this [College Scorecard](https://collegescorecard.ed.gov/).
+This jam's data features location, degrees/program types, academic, admissions, student, cost, aid, repayment, completions, and post-college earnings data on US Colleges.  The "entire dataset span[s] nearly 20 years of data and covering multiple sources including IPEDS, NSLDS, and Department of Treasury" and was pulled together by the US Department of education and the incredible [18f](https://18f.gsa.gov/).  This [subset](https://collegescorecard.ed.gov/downloads/Most-Recent-Cohorts-Scorecard-Elements.csv) of the data powers this [College Scorecard](https://collegescorecard.ed.gov/).
 
 # Ways to get data
 
 1. Ask for a USB at [jam](http://www.meetup.com/Houston-Data-Visualization-Meetup/events/231227184/)
-1. Download from [here](https://collegescorecard.ed.gov/downloads/Most-Recent-Cohorts-Scorecard-Elements.csv)
+1. Download
+  1. Scorecard data subset
+    * [Data](https://collegescorecard.ed.gov/downloads/Most-Recent-Cohorts-Scorecard-Elements.csv) - ~ 4.8 MB
+    * [Data dictionary](https://docs.google.com/spreadsheets/d/1lvDKrp6Azkr8D-MTOOUsEX61wPxcG2LSZlep_gdK4U8/edit?usp=sharing)
+  1. Full data set
+    * [Data](https://collegescorecard.ed.gov/downloads/CollegeScorecard_Raw_Data.zip) - ~ 150 MB
+    * [Data dictionary](https://docs.google.com/spreadsheets/d/1JaU4Kt9QH169nROZlivFzgiuzOX36e6W5awwlIWM6kE/edit?usp=sharing)
+    * [Data dictionary as csv](https://collegescorecard.ed.gov/assets/CollegeScorecardDataDictionary-09-08-2015.csv) ~ 373 KB
 1. Query the [API](https://github.com/18F/open-data-maker/blob/api-docs/API.md)
 
 # About
@@ -14,9 +21,9 @@ You can read all about the dataset and findings from it [here](https://collegesc
 
 A subset of the full data was used to make the [College Scorecard](https://collegescorecard.ed.gov/) for people to compare colleges.  You can download the **[data behind the scorecard here](https://collegescorecard.ed.gov/downloads/Most-Recent-Cohorts-Scorecard-Elements.csv)**.
 
-Full dataset with additional [columns](https://docs.google.com/spreadsheets/d/1lvDKrp6Azkr8D-MTOOUsEX61wPxcG2LSZlep_gdK4U8/pubhtml?gid=1332420733&single=true) for years 1996 to 2013 can be downloaded [here](https://collegescorecard.ed.gov/downloads/CollegeScorecard_Raw_Data.zip).  Warning: This zip of csvs is ~ 150 MB.  Unzipped, each file is ~ 100 MB.
+Full dataset with additional [columns](https://docs.google.com/spreadsheets/d/1lvDKrp6Azkr8D-MTOOUsEX61wPxcG2LSZlep_gdK4U8/pubhtml?gid=1332420733&single=true) for years 1996 to 2013 can be downloaded [here](https://collegescorecard.ed.gov/downloads/CollegeScorecard_Raw_Data.zip).  Warning: This zip of csvs is ~ 150 MB.  Unzipped, each file averages to ~ 100 MB.
 
-# Definitions for columns (in Scorecard only data)
+# Data dictionary (for Scorecard subset data)
 
 [See here](./definitions.md)
 
